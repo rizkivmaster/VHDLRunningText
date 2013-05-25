@@ -1,0 +1,27 @@
+//! **************************************************************************
+// Written by: Map P.28xd on Fri May 24 01:35:30 2013
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "an<0>" LOCATE = SITE "F12" LEVEL 1;
+COMP "an<1>" LOCATE = SITE "J12" LEVEL 1;
+COMP "an<2>" LOCATE = SITE "M13" LEVEL 1;
+COMP "an<3>" LOCATE = SITE "K14" LEVEL 1;
+COMP "clk" LOCATE = SITE "B8" LEVEL 1;
+COMP "toggle" LOCATE = SITE "A7" LEVEL 1;
+COMP "selector<0>" LOCATE = SITE "E2" LEVEL 1;
+COMP "selector<1>" LOCATE = SITE "N3" LEVEL 1;
+COMP "interface<0>" LOCATE = SITE "M12" LEVEL 1;
+COMP "interface<1>" LOCATE = SITE "L13" LEVEL 1;
+COMP "interface<2>" LOCATE = SITE "P12" LEVEL 1;
+COMP "interface<3>" LOCATE = SITE "N11" LEVEL 1;
+COMP "input<0>" LOCATE = SITE "P11" LEVEL 1;
+COMP "interface<4>" LOCATE = SITE "N14" LEVEL 1;
+COMP "input<1>" LOCATE = SITE "L3" LEVEL 1;
+COMP "interface<5>" LOCATE = SITE "H12" LEVEL 1;
+COMP "input<2>" LOCATE = SITE "K3" LEVEL 1;
+COMP "interface<6>" LOCATE = SITE "L14" LEVEL 1;
+COMP "input<3>" LOCATE = SITE "B4" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

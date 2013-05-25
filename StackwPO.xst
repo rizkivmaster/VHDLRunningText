@@ -1,0 +1,5 @@
+set -tmpdir "D:/VHDLExample/RunningText/xst/projnav.tmp"
+set -xsthdpdir "D:/VHDLExample/RunningText/xst"
+elaborate
+-ifn StackwPO.prj
+-ifmt mixed

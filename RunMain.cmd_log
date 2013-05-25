@@ -1,0 +1,27 @@
+xst -intstyle ise -ifn "D:/VHDLExample/RunningText/RunMain.xst" -ofn "D:/VHDLExample/RunningText/RunMain.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc basys2.ucf -p xc3s100e-cp132-4 RunMain.ngc RunMain.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o RunMain_map.ncd RunMain.ngd RunMain.pcf 
+par -w -intstyle ise -ol high -t 1 RunMain_map.ncd RunMain.ncd RunMain.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml RunMain.twx RunMain.ncd -o RunMain.twr RunMain.pcf -ucf basys2.ucf 
+bitgen -intstyle ise -f RunMain.ut RunMain.ncd 
+bitgen -intstyle ise -f RunMain.ut RunMain.ncd 
+xst -intstyle ise -ifn "D:/VHDLExample/RunningText/RunMain.xst" -ofn "D:/VHDLExample/RunningText/RunMain.syr" 
+xst -intstyle ise -ifn "D:/VHDLExample/RunningText/RunMain.xst" -ofn "D:/VHDLExample/RunningText/RunMain.syr" 
+xst -intstyle ise -ifn "D:/VHDLExample/RunningText/RunMain.xst" -ofn "D:/VHDLExample/RunningText/RunMain.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc basys2.ucf -p xc3s100e-cp132-4 RunMain.ngc RunMain.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o RunMain_map.ncd RunMain.ngd RunMain.pcf 
+par -w -intstyle ise -ol high -t 1 RunMain_map.ncd RunMain.ncd RunMain.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml RunMain.twx RunMain.ncd -o RunMain.twr RunMain.pcf -ucf basys2.ucf 
+bitgen -intstyle ise -f RunMain.ut RunMain.ncd 
+xst -intstyle ise -ifn "D:/VHDLExample/RunningText/RunMain.xst" -ofn "D:/VHDLExample/RunningText/RunMain.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc basys2.ucf -p xc3s100e-cp132-4 RunMain.ngc RunMain.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o RunMain_map.ncd RunMain.ngd RunMain.pcf 
+par -w -intstyle ise -ol high -t 1 RunMain_map.ncd RunMain.ncd RunMain.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml RunMain.twx RunMain.ncd -o RunMain.twr RunMain.pcf -ucf basys2.ucf 
+bitgen -intstyle ise -f RunMain.ut RunMain.ncd 
+xst -intstyle ise -ifn "D:/VHDLExample/RunningText/RunMain.xst" -ofn "D:/VHDLExample/RunningText/RunMain.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc basys2.ucf -p xc3s100e-cp132-4 RunMain.ngc RunMain.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o RunMain_map.ncd RunMain.ngd RunMain.pcf 
+par -w -intstyle ise -ol high -t 1 RunMain_map.ncd RunMain.ncd RunMain.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml RunMain.twx RunMain.ncd -o RunMain.twr RunMain.pcf -ucf basys2.ucf 
+bitgen -intstyle ise -f RunMain.ut RunMain.ncd 
